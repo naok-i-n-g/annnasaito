@@ -1,0 +1,141 @@
+@charset "utf-8";
+* {
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    
+}
+  body {
+      width: 100%;
+}
+
+.main-gallery {
+  animation: roll 3s linear infinite;
+}
+ 
+@keyframes roll {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+header {
+    background-color:#242424;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+header h1 {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+header a {
+    color: white;
+    font-size: 30px;
+}
+header a:hover {
+    color: red;
+}
+header ul {
+    display: flex;
+}
+ul li:nth-child(2) {
+    margin: 0 60px;
+}
+.main-gallery {
+    margin-top: 10px;
+    font-size: 60px;
+    text-align: center;
+    cursor: default
+}  
+  
+  main {
+    min-height: 100vh;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    
+  }
+  
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  /* Embed */
+  
+  .embed {
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+  }
+  
+  .embed--1-2 {
+    padding-top: calc(100% / (1 / 2));
+  }
+  
+  .embed--2-1 {
+    padding-top: calc(100% / (2 / 1));
+  }
+  
+  .embed--2-3 {
+    padding-top: calc(100% / (2 / 3));
+  }
+  
+  .embed > * {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    padding: 0.25em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Gallery  */
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  
+  .gallery__item--h-2 {
+    grid-column-end: span 2;
+  }
+  
+  .gallery__item--h-3 {
+    grid-column-end: span 3;
+  }
+  
+  .gallery__item--v-2 {
+    grid-row-end: span 2;
+  }
+  
+  .gallery__item--v-3 {
+    grid-row-end: span 3;
+  }
+  
+  footer {
+   margin-top: 30px;
+    height: 70px;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+@media screen and (max-width:375px){
+  header h1 {
+      font-size: 20px;
+  }
+  header a {
+      font-size: 15px;
+  }
+}
