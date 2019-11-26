@@ -229,6 +229,11 @@ footer p {
       .left-prof {
           margin-top: 500px;
       }
+      .right-prof img {
+      
+        transform:rotateZ(90deg);
+    
+    }
 }
 @media screen and (max-width:660px){
     .content2 input {
@@ -236,6 +241,11 @@ footer p {
     }
     .content2 textarea {
         width: 300px;
+    }
+    .right-prof img {
+      
+        transform:rotateZ(90deg);
+    
     }
     
 }
