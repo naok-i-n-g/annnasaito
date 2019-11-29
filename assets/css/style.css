@@ -5,8 +5,8 @@
 }
 main {
     background-image: url(../img/ニューボーンふぉと/HappyPhoto-2-2.jpg);
-    width: 100%;
-    height: 700px;
+    /* width: 100%; */
+    height: 100vh;
     /* display: flex; */
     /* align-items: center; */
     justify-content: center;
@@ -31,7 +31,7 @@ main {
     height: 90px;
     width: 90px;
     padding: 10px;
-    font-size: 40px;
+    font-size: 100px;
     background-color:black;
     border-radius: 50%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -132,8 +132,8 @@ aside {
 }
  section{
     background-image: url(../img/ニューボーンふぉと/HappyPhoto-14.jpg);
-    width: 100%;
-    height: 620px;;
+    /* width: 100%; */
+    height: 100vh;
     /* display: flex; */
     /* align-items: center; */
     justify-content: center;
