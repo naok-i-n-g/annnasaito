@@ -262,13 +262,13 @@ footer p {
     .right-prof img {
         transform: rotateZ(90deg);
     }
-    .content {
+    /* .content {
         display: none;
     }
     /* section {
         display: none; */
-    }
-    main {
+    /* } */
+    main { 
         padding-top: 20%;
         background-position: 50%;
 
