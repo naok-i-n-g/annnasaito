@@ -269,7 +269,8 @@ footer p {
         display: none;
     }
     main {
-        object-fit: cover;
-        object-position: 50% 10%;
+        padding-top: 20%;
+        background-position: 50%;
+
     }
 }
