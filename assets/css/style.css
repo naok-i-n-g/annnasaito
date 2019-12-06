@@ -16,6 +16,7 @@ main {
     background-attachment: fixed;
     background-position: 50%;
     /* max-width: 100%; */
+    padding-top: 3%;
 }
 
 .content {

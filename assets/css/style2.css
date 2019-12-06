@@ -135,6 +135,13 @@ main {
     height: 600px;
     background-size: cover;
 }
+.pic5 {
+    background-image: url(../img/いろいろ/4amonth.jpg);
+    width: 599.5px;
+    height: 600px;
+    background-size: cover;
+}
+
 
 footer {
     height: 70px;
