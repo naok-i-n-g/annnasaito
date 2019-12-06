@@ -265,8 +265,8 @@ footer p {
     .content {
         display: none;
     }
-    section {
-        display: none;
+    /* section {
+        display: none; */
     }
     main {
         padding-top: 20%;
