@@ -14,9 +14,8 @@ main {
     /* background-repeat:no-repeat; */
     background-size: cover;
     background-attachment: fixed;
-    /* background-position: 50%; */
-    /* object-fit: cover; */
-    /* background-position: 50%; */
+    background-position: 50%;
+    /* max-width: 100%; */
 }
 
 .content {
@@ -268,5 +267,9 @@ footer p {
     }
     section {
         display: none;
+    }
+    main {
+        object-fit: cover;
+        object-position: 50% 10%;
     }
 }
