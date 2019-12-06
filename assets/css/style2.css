@@ -187,7 +187,11 @@ footer p {
         width: 400px;
         height: 400px;
     }
-    .box1 {
+    .pic5 {
+        width: 400px;
+        height: 400px;
+    }
+    .box {
         width: 400px;
         height: 650px;
     }
@@ -212,6 +216,10 @@ footer p {
         height: 300px;
     }
     .pic3 {
+        width: 300px;
+        height: 300px;
+    }
+    .pic4 {
         width: 300px;
         height: 300px;
     }
