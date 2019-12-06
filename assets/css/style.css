@@ -158,7 +158,7 @@ section {
 }
 
 .content2 {
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     background-color: white;
     display: flex;
