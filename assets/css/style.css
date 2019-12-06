@@ -263,4 +263,10 @@ footer p {
     .right-prof img {
         transform: rotateZ(90deg);
     }
+    .content {
+        display: none;
+    }
+    section {
+        display: none;
+    }
 }
