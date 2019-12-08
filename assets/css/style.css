@@ -12,11 +12,11 @@ main {
     /* justify-content: center; */
     /* position: relative; */
     /* background-repeat:no-repeat; */
-    background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
     /* max-width: 100%; */
     padding-top: 3%;
+    background-size:cover;
 }
 
 .content {
@@ -80,7 +80,7 @@ ul li:nth-child(2) {
 }
 
 .content {
-    height: 400px;
+    /* height: 400px; */
     width: 100%;
     background-color: #242424;
 }
@@ -153,9 +153,8 @@ section {
     justify-content: center;
     /* background-repeat:no-repeat; */
     background-position: center;
-    background-size: cover;
     background-attachment: fixed;
-    object-fit: cover;
+    background-size: cover;
 }
 
 .content2 {
@@ -269,9 +268,11 @@ footer p {
     /* section {
         display: none; */
     /* } */
-    main { 
+    main {
         padding-top: 20%;
-        background-position: 50%;
-
+        background-size: auto 100vh;
+    }
+    section {
+        background-size: auto 100vh;
     }
 }
