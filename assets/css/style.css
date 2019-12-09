@@ -17,7 +17,7 @@ main {
     /* max-width: 100%; */
     padding-top: 3%;
     background-size:cover;
-    background-repeat: no-repeat;
+    
 }
 
 .content {
@@ -156,7 +156,7 @@ section {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
 .content2 {
