@@ -271,5 +271,10 @@ footer p {
     /* section {
         display: none; */
     /* } */
-   
+    main {
+        background-repeat: no-repeat;
+    }
+   section {
+       background-repeat: no-repeat;
+   }
 }
