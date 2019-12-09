@@ -16,7 +16,7 @@ main {
     background-position: 50%;
     /* max-width: 100%; */
     background-size:cover;
-    background-size: auto 100vh;
+    /* background-size: auto 100vh; */
     
 }
 
@@ -157,7 +157,7 @@ section {
     background-attachment: fixed;
     background-size: cover;
     /* background-repeat: no-repeat; */
-    background-size: auto 100vh;
+    /* background-size: auto 100vh; */
 }
 
 .content2 {
@@ -271,10 +271,10 @@ footer p {
     /* section {
         display: none; */
     /* } */
-    main {
+    /* main {
         background-repeat: no-repeat;
     }
    section {
        background-repeat: no-repeat;
-   }
+   } */
 }
