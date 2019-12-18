@@ -16,8 +16,9 @@ main {
     background-position: 50%;
     /* max-width: 100%; */
     background-size:cover;
-    background-size: auto 100vh;
-    
+    /* background-size: auto 100vh; */
+    background-repeat: no-repeat;
+
 }
 
 .content {
@@ -156,8 +157,8 @@ section {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    background-size: auto 100vh;
+    background-repeat: no-repeat;
+    /* background-size: auto 100vh; */
 }
 
 .content2 {
@@ -221,7 +222,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
+        
 footer p {
     color: white;
     font-family: 'Amatic SC', cursive;
@@ -245,7 +246,7 @@ footer p {
         flex-direction: column;
     }
     .content {
-        height: 1200px;
+        height: 900px;
     }
     .left-prof {
         margin-top: 500px;
@@ -271,10 +272,11 @@ footer p {
     /* section {
         display: none; */
     /* } */
-    /* main {
-        background-repeat: no-repeat;
-    }
+   main { 
+        
+        background-size: auto 100vh;
+    } 
    section {
-       background-repeat: no-repeat;
-   } */
+        background-size: auto 100vh; 
+   } 
 }
