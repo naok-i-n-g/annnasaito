@@ -12,7 +12,7 @@ main {
     /* justify-content: center; */
     /* position: relative; */
     /* background-repeat:no-repeat; */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: 50%;
     /* max-width: 100%; */
     background-size:cover;
@@ -155,7 +155,7 @@ section {
     justify-content: center;
     /* background-repeat:no-repeat; */
     background-position: center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-size: auto 100vh; */
@@ -277,8 +277,10 @@ footer p {
    main { 
         
         background-size: auto 100vh;
+        background-attachment: scroll;
     } 
    section {
         background-size: auto 100vh; 
+        background-attachment: scroll;
    } 
 }
